@@ -1,0 +1,343 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(22, 22, 22);
+  color: antiquewhite;
+}
+header {
+  position: relative;
+  width: inherit;
+  height: 900px;
+  background-color: rgb(22, 22, 22);
+  padding: 0 2%;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bigImage {
+  position: absolute;
+  width: 50%;
+  height: inherit;
+  background-image: url(../img/young.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+}
+
+.partOfBigImageSquare {
+  height: 100px;
+  width: 350px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.466);
+  overflow: hidden;
+}
+
+.partOfBigImageCircle {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.466);
+  border-radius: 50%;
+}
+
+header table {
+  position: absolute;
+}
+
+.headerCite {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20pt;
+  width: 500px;
+  font-variant: small-caps;
+}
+
+.HeaderFreeSpace {
+  width: 700px;
+}
+.leftPanel div {
+  margin-top: 10%;
+}
+.leftPanel div:nth-child(3) {
+  margin-left: 20%;
+}
+.leftPanel div:nth-child(4) {
+  margin-left: 30%;
+}
+.rightPanel {
+  padding-top: 30px;
+}
+
+.rightPanel .partOfBigImageSquare {
+  margin-top: 3%;
+}
+.rightPanel .partOfBigImageCircle {
+  margin-top: 93px;
+  margin-left: -72px;
+}
+.rightPanel .navigation {
+  height: 100px;
+  margin-top: 100px;
+}
+
+.navigation li {
+  height: 20px;
+  width: 300px;
+  margin-top: 3%;
+  color: rgb(240, 60, 59);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+}
+
+.navigation li:hover {
+  background-color: blueviolet;
+}
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:visited {
+  color: rgb(240, 60, 59);
+}
+
+.rightPanel .headerCite {
+  margin-top: -9%;
+  color: rgb(240, 60, 59);
+  font-size: 22pt;
+}
+
+#Square1 {
+  width: 500px;
+  height: 800px;
+  margin-top: -150%;
+}
+
+#Square2 {
+  width: 1500px;
+  height: 2000px;
+  margin-top: -150%;
+}
+#Square3 {
+  width: 500px;
+  height: 800px;
+  margin-top: -98%;
+}
+
+#Square4 {
+  width: 1500px;
+  height: 2000px;
+  margin-top: -330%;
+  margin-left: -164%;
+}
+
+#Circle1 {
+  width: 500px;
+  height: 800px;
+  margin-top: -347%;
+  margin-left: -98%;
+}
+
+#Circle2 {
+  width: 800px;
+  height: 1115px;
+  margin-top: -783%;
+  margin-left: -290%;
+}
+.Art {
+  height: 1200px;
+  width: inherit;
+  padding-top: 50px;
+}
+
+.Art h2 {
+  display: block;
+  width: 200px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Art table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Art div {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(22, 22, 22, 0.507);
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#boy {
+  background-image: url(../img/fin-2.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#doom {
+  background-image: url(../img/1doom.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#yung {
+  background-image: url(../img/young.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#pop {
+  background-image: url(../img/pop.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.Music {
+  display: block;
+  position: relative;
+  height: 750px;
+  width: inherit;
+  background-color: rgb(37 35 42);
+  background-image: url(../img/moon.jpg);
+  background-blend-mode: soft-light;
+  padding: 10px 150px;
+}
+.Music div:first-child {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  float: left;
+}
+.Music div:last-child {
+  float: right;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45pt;
+  color: blueviolet;
+  margin-right: 10%;
+}
+
+.artistCover {
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+}
+
+.AboutMe {
+  display: block;
+  position: relative;
+  background-color: rgb(22, 22, 22);
+  width: inherit;
+  height: 850px;
+  padding: 50px 10%;
+}
+.Name {
+  height: 100px;
+  width: 600px;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Name em {
+  position: absolute;
+  font-size: 50pt;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: blueviolet;
+}
+
+#myPhoto {
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.AboutMe h2 {
+  font-size: 16pt;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.AboutMe p {
+  width: 50%;
+}
+
+.AboutMe td {
+  vertical-align: top;
+}
+
+.skills {
+  margin-top: 10px;
+}
+.draw,
+.guitar,
+.programming,
+.sport {
+  display: flex;
+  margin-top: 10px;
+}
+.draw div,
+.guitar div,
+.programming div,
+.sport div {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.draw div:not([class="filledSkill"]),
+.guitar div:not([class="filledSkill"]),
+.programming div:not([class="filledSkill"]),
+.sport div:not([class="filledSkill"]) {
+  background-color: silver;
+}
+.filledSkill {
+  background-color: rgb(240, 60, 59);
+}
+
+footer {
+  display: block;
+  width: inherit;
+  height: 230px;
+  background-color: rgb(22, 22, 22);
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-top: 100px;
+}
+
+footer div {
+  display: block;
+  width: 300px;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.animBorder {
+  border-color: blueviolet;
+  border-width: 3px;
+  border-style: solid;
+  animation: borderColor 30s ease infinite;
+}
+@keyframes borderColor {
+  0% {
+    border-color: rgb(240, 60, 59);
+  }
+  50% {
+    border-color: rgb(124, 43, 111);
+  }
+  100% {
+    border-color: blueviolet;
+  }
+}
